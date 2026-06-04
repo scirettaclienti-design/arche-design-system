@@ -1,0 +1,8 @@
+:root {
+  --space-band:  clamp(4.5rem, 11vw, 9.5rem);
+  --space-block: clamp(2rem, 5vw, 4rem);
+  --space-stack: 1.35rem;
+  --col-text:   39rem;
+  --col-wide:   74rem;
+  --col-narrow: 28rem;
+}

@@ -1,0 +1,30 @@
+:root {
+  --font-display: "Bodoni Moda", "Didot", Georgia, serif;
+  --font-serif:   "Spectral", Georgia, "Times New Roman", serif;
+  --font-secret:  "Cormorant Garamond", "Bodoni Moda", Georgia, serif;
+  --font-sans:    ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    ui-monospace, "SF Mono", Menlo, monospace;
+  --fs-xs:   clamp(.78rem, .76rem + .08vw, .85rem);
+  --fs-sm:   clamp(.88rem, .85rem + .12vw, .96rem);
+  --fs-base: clamp(1.03rem, .99rem + .22vw, 1.19rem);
+  --fs-lg:   clamp(1.15rem, 1.02rem + .6vw, 1.4rem);
+  --fs-xl:   clamp(1.45rem, 1.2rem + 1vw, 1.85rem);
+  --fs-2xl:  clamp(1.95rem, 1.4rem + 2vw, 2.65rem);
+  --fs-3xl:  clamp(2.5rem, 1.6rem + 3.5vw, 3.85rem);
+  --fs-4xl:  clamp(3rem, 2rem + 4vw, 5.2rem);
+  --leading-tight:  1.08;
+  --leading-snug:   1.4;
+  --leading-normal: 1.6;
+  --leading-loose:  1.74;
+  --tracking-tight:   -.012em;
+  --tracking-base:    .005em;
+  --tracking-eyebrow: .26em;
+}
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: .71rem;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-gold);
+}

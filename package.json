@@ -1,0 +1,35 @@
+{
+  "name": "@scirettaclienti-design/arche-design-system",
+  "version": "0.1.0",
+  "description": "archè design system — tokens, typography, primitives",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./tokens": "./src/tokens/index.css",
+    "./tailwind": {
+      "types": "./dist/tailwind/preset.d.mts",
+      "import": "./dist/tailwind/preset.mjs"
+    }
+  },
+  "files": ["dist", "src/tokens", "src/fonts"],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "prepublishOnly": "pnpm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scirettaclienti-design/arche-design-system.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0",
+    "unbuild": "^2.0.0"
+  }
+}

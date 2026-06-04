@@ -1,0 +1,19 @@
+/* archè · inchiostro — palette del documento di regia */
+:root {
+  --color-ink:        #14110C;
+  --color-ink-2:      #1B1711;
+  --color-ink-3:      #221D15;
+  --color-oxblood:    #2A1412;
+  --color-bone:       #ECE4D2;
+  --color-bone-dim:   #BDB39C;
+  --color-bone-faint: #8C8370;
+  --color-gold:        #C8A24E;
+  --color-gold-bright: #E0C685;
+  --color-gold-deep:   #8C6E36;
+  --line:      rgba(200, 162, 78, .24);
+  --line-soft: rgba(236, 228, 210, .10);
+  --color-success: #7A8C58;
+  --color-warning: #C8A24E;
+  --color-error:   #A6483E;
+}
+::selection { background: var(--color-gold-deep); color: var(--color-ink); }
